@@ -1,0 +1,19 @@
+{
+  "name": "wowlabproject",
+  "version": "1.0.0",
+  "description": "it's backend project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yadavsatyapal1999/e_combewow.git"
+  },
+  "author": "Satyapal Yadav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yadavsatyapal1999/e_combewow/issues"
+  },
+  "homepage": "https://github.com/yadavsatyapal1999/e_combewow#readme"
+}
