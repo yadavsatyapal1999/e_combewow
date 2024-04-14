@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/yadavsatyapal1999/e_combewow/issues"
   },
-  "homepage": "https://github.com/yadavsatyapal1999/e_combewow#readme"
+  "homepage": "https://github.com/yadavsatyapal1999/e_combewow#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.0"
+  }
 }
