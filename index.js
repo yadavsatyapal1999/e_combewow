@@ -17,6 +17,7 @@ mongoose.connect("mongodb+srv://satyapalmechworld:axN0ykTi1TcZ18ED@cluster0.qkhy
 })
 .catch((res)=>{
     console.log("Connection refused")
+    console.log(res)
 })
 
 app.listen(5000,()=>{
