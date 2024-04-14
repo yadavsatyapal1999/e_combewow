@@ -4,7 +4,7 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
 const mongoose = require('mongoose')
-
+const crud =  require('./Routes/crud')
 const app = express();
 
 
@@ -20,6 +20,7 @@ mongoose.connect("mongodb+srv://satyapalmechworld:axN0ykTi1TcZ18ED@cluster0.qkhy
     console.log(res)
 })
 
+app.use('/',crud)
 app.listen(5000,()=>{
     console.log("hosting at port 5000")
 })
